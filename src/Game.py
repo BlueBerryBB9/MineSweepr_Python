@@ -1,4 +1,5 @@
 import tkinter
+from game_board
 
 class Game:
     def __init__(self):

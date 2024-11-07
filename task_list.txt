@@ -35,7 +35,18 @@
   already discovered. NOAH
 
 Martin :
-All
+- Users have a functional menu to start a game, to return to if he finishes a game, to quit.
+- Users can select the difficulty of the game before launching:
+    - Easy : size = 9*9 & mines = 10
+    - Medium : size = 16*16 & mines = 40
+    - Hard : size = 30*16 & mines = 99
+- Developers need to generate a grid depending on the size and the number of mines given by the difficulty.
+  (one mine per cell maximum)
+- Users can, at the end of the game, enter a name, allowing to register in scoreboard : your name and your score.
+  Also, when user select a grid, all the names along scores on this grid are shown.
+- Users can replay on all grid, even all grids played before launching the Game.
+- User can replay on a grid he already played to.
+
 
 Noah :
 - Developers need to generate a grid depending on the size and the number of mines given by the difficulty.

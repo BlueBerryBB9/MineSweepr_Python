@@ -1,5 +1,5 @@
 import tkinter as tk
-from old_cell import Cell
+from Cell import Cell
 import random
 
 
@@ -19,7 +19,7 @@ class GameBoard:
         self.frame = tk.Frame(self.root)
         self.frame.pack()
 
-        # Create cells
+        # Create board
         for row in range(self.height):
             row_cells = []
             for col in range(self.width):
@@ -37,24 +37,24 @@ class GameBoard:
             self.board.append(row_cells)
 
     def place_mines(self, first_row, first_col):
-        positions = [(r, c) for r in range(self.size) for c in range(self.size)
+        positions = [(r, c) for r in range(self.height) for c in range(self.width)
                      if (r, c) != (first_row, first_col)]
         mine_positions = random.sample(positions, self.total_mines)
 
         for row, col in mine_positions:
-            self.cells[row][col].is_mine = True
+            self.board[row][col].is_mine = True
 
         # Calculate neighbor mines
-        for row in range(self.size):
-            for col in range(self.size):
-                if not self.cells[row][col].is_mine:
-                    self.cells[row][col].neighbor_mines = self.count_neighbor_mines(row, col)
+        for row in range(self.height):
+            for col in range(self.width):
+                if not self.board[row][col].is_mine:
+                    self.board[row][col].neighbor_mines = self.count_neighbor_mines(row, col)
 
     def count_neighbor_mines(self, row, col):
         count = 0
-        for r in range(max(0, row - 1), min(self.size, row + 2)):
-            for c in range(max(0, col - 1), min(self.size, col + 2)):
-                if self.cells[r][c].is_mine:
+        for r in range(max(0, row - 1), min(self.height, row + 2)):
+            for c in range(max(0, col - 1), min(self.width, col + 2)):
+                if self.board[r][c].is_mine:
                     count += 1
         return count
 
@@ -62,7 +62,7 @@ class GameBoard:
         if self.game_over:
             return
 
-        cell = self.cells[row][col]
+        cell = self.board[row][col]
 
         if cell.is_flagged:
             return
@@ -84,7 +84,7 @@ class GameBoard:
             self.show_message("You Win!")
 
     def reveal_cell(self, row, col):
-        cell = self.cells[row][col]
+        cell = self.board[row][col]
         if cell.is_revealed or cell.is_flagged:
             return
 
@@ -94,9 +94,9 @@ class GameBoard:
         if cell.neighbor_mines == 0:
             cell.button.config(bg='white')
             # Reveal neighbors
-            for r in range(max(0, row - 1), min(self.size, row + 2)):
-                for c in range(max(0, col - 1), min(self.size, col + 2)):
-                    if not self.cells[r][c].is_revealed:
+            for r in range(max(0, row - 1), min(self.height, row + 2)):
+                for c in range(max(0, col - 1), min(self.width, col + 2)):
+                    if not self.board[r][c].is_revealed:
                         self.reveal_cell(r, c)
         else:
             cell.button.config(
@@ -109,26 +109,26 @@ class GameBoard:
         if self.game_over:
             return
 
-        cell = self.cells[row][col]
+        cell = self.board[row][col]
         if not cell.is_revealed:
             cell.is_flagged = not cell.is_flagged
             cell.button.config(text='🚩' if cell.is_flagged else '')
 
     def reveal_all(self):
-        for row in self.cells:
+        for row in self.board:
             for cell in row:
                 if cell.is_mine:
                     cell.button.config(text='💣', bg='red')
 
     def check_win(self):
-        for row in self.cells:
+        for row in self.board:
             for cell in row:
                 if not cell.is_mine and not cell.is_revealed:
                     return False
         return True
 
     def show_message(self, message):
-        for row in self.cells:
+        for row in self.board:
             for cell in row:
                 cell.button.config(state=tk.DISABLED)
         tk.messagebox.showinfo("Game Status", message)
