@@ -35,22 +35,23 @@
   already discovered. NOAH
 
 Martin :
-- Users have a functional menu to start a game, to return to if he finishes a game, to quit.
-- Users can select the difficulty of the game before launching:
-    - Easy : size = 9*9 & mines = 10
-    - Medium : size = 16*16 & mines = 40
-    - Hard : size = 30*16 & mines = 99
 - Developers need to generate a grid depending on the size and the number of mines given by the difficulty.
   (one mine per cell maximum)
 - Users can, at the end of the game, enter a name, allowing to register in scoreboard : your name and your score.
   Also, when user select a grid, all the names along scores on this grid are shown.
-- Users can replay on all grid, even all grids played before launching the Game.
-- User can replay on a grid he already played to.
+- Users can replay on all grids, even all grids played before launching the Game.
+- User can replay on a grid they already played to.
+
+
+Wissal : 
+- Users have a functional menu to start a game, to return to if they finish a game, to quit.
+- Users can select the difficulty of the game before launching:
+    - Easy: size = 9*9 & mines = 10
+    - Medium: size = 16*16 & mines = 40
+    - Hard: size = 30*16 & mines = 99
 
 
 Noah :
-- Developers need to generate a grid depending on the size and the number of mines given by the difficulty.
-   (one mine per cell)
 - Developers need cells next to mine (that are not mines) to contain the number of adjacent mines.
 - Player can reveal a cell by clicking on it (left-click). If the cell contains a mine, player loses.
   Otherwise, he discovers the numbers of adjacent mines.
@@ -60,4 +61,4 @@ Noah :
 - Developers want users to be praised when all mine are stamped and all other cell discovered.
 - User want the first cell to be clicked on to always be mine-free.
 - If users want to restart a grid, then the first cell is the same as when they started the grid he first time and is
-  already discovered.
+  already discovered.(MARTIN / NOAH)
