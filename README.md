@@ -7,6 +7,7 @@ A modern implementation of the classic Minesweeper game with advanced features l
 ### Menu System (Wissal)
 - ✅ Interactive main menu with options to:
   - Start new game
+  - Load game
   - View scoreboard
   - Quit game
 - ✅ Difficulty selection:
@@ -15,9 +16,6 @@ A modern implementation of the classic Minesweeper game with advanced features l
   - Hard (30x16 grid, 99 mines)
 
 ### Grid Generation & Scoring (Martin)
-- ✅ Dynamic grid generation based on difficulty
-  - Ensures maximum of one mine per cell
-  - Generates unique grid layouts
 - ✅ Comprehensive scoring system
   - Player name registration
   - Score tracking per grid
@@ -25,6 +23,10 @@ A modern implementation of the classic Minesweeper game with advanced features l
 - ✅ Grid replay functionality
   - Ability to replay any previously played grid
   - Maintains grid history across game sessions
+- ✅ Win/Lose conditions
+  - Game over on mine revelation
+  - Victory when all mines are correctly flagged
+  - All safe cells revealed
 
 ### Gameplay Mechanics (Noah)
 - ✅ Cell interaction system
@@ -37,10 +39,9 @@ A modern implementation of the classic Minesweeper game with advanced features l
 - ✅ Auto-reveal mechanism
   - Recursively reveals adjacent empty cells
   - Shows numbers for cells adjacent to mines
-- ✅ Win/Lose conditions
-  - Game over on mine revelation
-  - Victory when all mines are correctly flagged
-  - All safe cells revealed
+- ✅ Dynamic grid generation based on difficulty
+  - Ensures maximum of one mine per cell
+  - Generates unique grid layouts
 
 ## Technical Implementation
 
