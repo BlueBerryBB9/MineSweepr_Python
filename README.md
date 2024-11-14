@@ -61,12 +61,12 @@ A modern implementation of the classic Minesweeper game with advanced features l
 - Interactive menu system
 
 ## Project Structure
-├── main.py              # Game initialization and main loop
-├── board.py             # Grid and cell management
-├── cell.py              # Individual cell properties
-├── game_manager.py      # Game state and logic handling
-├── menu_manager.py      # Menu system and UI
-└── save_manager.py      # Save state and scoring system
+├── main.py              # Game initialization and main loop<br>
+├── board.py             # Grid and cell management<br>
+├── cell.py              # Individual cell properties<br>
+├── game_manager.py      # Game state and logic handling<br>
+├── menu_manager.py      # Menu system and UI<br>
+└── save_manager.py      # Save state and scoring system<br>
 
 
 
