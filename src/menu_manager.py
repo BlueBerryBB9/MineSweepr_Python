@@ -10,11 +10,17 @@ def format_timestamp(iso_timestamp):
 
 
 class MenuManager:
-
     def __init__(self, root, save_manager):
         self.root = root
         self.save_manager = save_manager
         self.current_frame = None
+
+        # Configure style for scrollbar
+        style = ttk.Style()
+        style.configure("Custom.TScrollbar",
+                        background="#2C3E50",
+                        troughcolor="#34495E",
+                        arrowcolor="white")
 
     def clear_window(self):
         if self.current_frame:
@@ -152,7 +158,6 @@ class MenuManager:
                                     bg='#34495E', fg='#ECF0F1')
                     btn.pack(fill='x')
 
-        frame = self.current_frame
         self.create_menu_button(frame, "Return", self.create_main_menu, '#E74C3C')
 
     def show_grid_details(self, grid_id):
