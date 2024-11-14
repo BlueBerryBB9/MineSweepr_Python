@@ -1,0 +1,5166 @@
+{
+    "games": [
+        {
+            "grid_id": "4dc4d6fb9ffc5128f3de59b38132892f",
+            "difficulty": "Easy",
+            "width": 9,
+            "height": 9,
+            "mines": 10,
+            "grid": [
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,2"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,2"
+                    }
+                ]
+            ],
+            "timestamp": "2024-11-14T05:43:57.605135",
+            "time_elapsed": 0.0002777576446533203
+        },
+        {
+            "grid_id": "873b15412c79ccc3448550e4f69823f8",
+            "difficulty": "Hard",
+            "width": 30,
+            "height": 16,
+            "mines": 99,
+            "grid": [
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 5,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 5,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 5,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "15,12"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "15,12"
+                    }
+                ]
+            ],
+            "timestamp": "2024-11-14T05:57:17.264919",
+            "time_elapsed": 0.0007889270782470703
+        },
+        {
+            "grid_id": "c3a85924b0bfcdd76fe50c9424f4c9cb",
+            "difficulty": "Easy",
+            "width": 9,
+            "height": 9,
+            "mines": 10,
+            "grid": [
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 4,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 2,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 3,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": true,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ],
+                [
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": false,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 1,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    },
+                    {
+                        "is_mine": false,
+                        "is_revealed": true,
+                        "is_flagged": false,
+                        "adjacent_mines": 0,
+                        "first_cell": "5,6"
+                    }
+                ]
+            ],
+            "timestamp": "2024-11-14T05:59:38.651050",
+            "time_elapsed": 0.00031495094299316406
+        }
+    ],
+    "grids": {
+        "4dc4d6fb9ffc5128f3de59b38132892f": {
+            "difficulty": "Easy",
+            "width": 9,
+            "height": 9,
+            "mines": 10,
+            "mine_positions": [
+                [
+                    0,
+                    3
+                ],
+                [
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    6
+                ],
+                [
+                    1,
+                    0
+                ],
+                [
+                    3,
+                    1
+                ],
+                [
+                    3,
+                    5
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    7,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    8
+                ]
+            ],
+            "first_cell": [
+                5,
+                2
+            ],
+            "created_at": "2024-11-14T05:43:57.605497"
+        },
+        "873b15412c79ccc3448550e4f69823f8": {
+            "difficulty": "Hard",
+            "width": 30,
+            "height": 16,
+            "mines": 99,
+            "mine_positions": [
+                [
+                    0,
+                    3
+                ],
+                [
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    13
+                ],
+                [
+                    0,
+                    15
+                ],
+                [
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
+                    1,
+                    12
+                ],
+                [
+                    3,
+                    1
+                ],
+                [
+                    3,
+                    2
+                ],
+                [
+                    3,
+                    7
+                ],
+                [
+                    3,
+                    15
+                ],
+                [
+                    4,
+                    3
+                ],
+                [
+                    4,
+                    12
+                ],
+                [
+                    5,
+                    1
+                ],
+                [
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    8
+                ],
+                [
+                    6,
+                    4
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    7,
+                    6
+                ],
+                [
+                    7,
+                    10
+                ],
+                [
+                    8,
+                    2
+                ],
+                [
+                    8,
+                    3
+                ],
+                [
+                    8,
+                    4
+                ],
+                [
+                    8,
+                    6
+                ],
+                [
+                    8,
+                    7
+                ],
+                [
+                    8,
+                    15
+                ],
+                [
+                    9,
+                    0
+                ],
+                [
+                    9,
+                    5
+                ],
+                [
+                    9,
+                    6
+                ],
+                [
+                    9,
+                    15
+                ],
+                [
+                    10,
+                    5
+                ],
+                [
+                    11,
+                    0
+                ],
+                [
+                    11,
+                    6
+                ],
+                [
+                    11,
+                    7
+                ],
+                [
+                    11,
+                    15
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    13,
+                    0
+                ],
+                [
+                    13,
+                    1
+                ],
+                [
+                    13,
+                    3
+                ],
+                [
+                    13,
+                    4
+                ],
+                [
+                    13,
+                    8
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    4
+                ],
+                [
+                    16,
+                    9
+                ],
+                [
+                    17,
+                    4
+                ],
+                [
+                    17,
+                    7
+                ],
+                [
+                    17,
+                    8
+                ],
+                [
+                    17,
+                    9
+                ],
+                [
+                    17,
+                    11
+                ],
+                [
+                    17,
+                    12
+                ],
+                [
+                    17,
+                    13
+                ],
+                [
+                    18,
+                    8
+                ],
+                [
+                    18,
+                    10
+                ],
+                [
+                    19,
+                    1
+                ],
+                [
+                    20,
+                    4
+                ],
+                [
+                    20,
+                    12
+                ],
+                [
+                    21,
+                    1
+                ],
+                [
+                    21,
+                    9
+                ],
+                [
+                    21,
+                    12
+                ],
+                [
+                    21,
+                    13
+                ],
+                [
+                    21,
+                    14
+                ],
+                [
+                    22,
+                    0
+                ],
+                [
+                    22,
+                    1
+                ],
+                [
+                    22,
+                    3
+                ],
+                [
+                    22,
+                    9
+                ],
+                [
+                    22,
+                    10
+                ],
+                [
+                    22,
+                    12
+                ],
+                [
+                    22,
+                    13
+                ],
+                [
+                    23,
+                    0
+                ],
+                [
+                    23,
+                    1
+                ],
+                [
+                    23,
+                    6
+                ],
+                [
+                    23,
+                    12
+                ],
+                [
+                    23,
+                    13
+                ],
+                [
+                    24,
+                    9
+                ],
+                [
+                    24,
+                    13
+                ],
+                [
+                    25,
+                    6
+                ],
+                [
+                    25,
+                    11
+                ],
+                [
+                    25,
+                    15
+                ],
+                [
+                    26,
+                    11
+                ],
+                [
+                    26,
+                    12
+                ],
+                [
+                    26,
+                    14
+                ],
+                [
+                    27,
+                    5
+                ],
+                [
+                    27,
+                    6
+                ],
+                [
+                    27,
+                    9
+                ],
+                [
+                    27,
+                    10
+                ],
+                [
+                    27,
+                    15
+                ],
+                [
+                    28,
+                    1
+                ],
+                [
+                    28,
+                    3
+                ],
+                [
+                    28,
+                    4
+                ],
+                [
+                    28,
+                    6
+                ],
+                [
+                    28,
+                    7
+                ],
+                [
+                    28,
+                    13
+                ],
+                [
+                    29,
+                    9
+                ],
+                [
+                    29,
+                    10
+                ],
+                [
+                    29,
+                    11
+                ]
+            ],
+            "first_cell": [
+                15,
+                12
+            ],
+            "created_at": "2024-11-14T05:57:17.266258"
+        },
+        "c3a85924b0bfcdd76fe50c9424f4c9cb": {
+            "difficulty": "Easy",
+            "width": 9,
+            "height": 9,
+            "mines": 10,
+            "mine_positions": [
+                [
+                    0,
+                    8
+                ],
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    2
+                ],
+                [
+                    3,
+                    0
+                ],
+                [
+                    5,
+                    2
+                ],
+                [
+                    6,
+                    1
+                ],
+                [
+                    6,
+                    2
+                ],
+                [
+                    7,
+                    1
+                ],
+                [
+                    7,
+                    5
+                ]
+            ],
+            "first_cell": [
+                5,
+                6
+            ],
+            "created_at": "2024-11-14T05:59:38.653417"
+        }
+    },
+    "scores": {
+        "4dc4d6fb9ffc5128f3de59b38132892f": [
+            {
+                "player": "aa",
+                "score": 38.2716049382716,
+                "time": 2.0491411685943604,
+                "timestamp": "2024-11-14T05:44:01.744044",
+                "difficulty": "Easy",
+                "grid_id": "4dc4d6fb9ffc5128f3de59b38132892f"
+            }
+        ],
+        "873b15412c79ccc3448550e4f69823f8": [
+            {
+                "player": "ee",
+                "score": 15.833333333333332,
+                "time": 1.7122576236724854,
+                "timestamp": "2024-11-14T05:57:21.868286",
+                "difficulty": "Hard",
+                "grid_id": "873b15412c79ccc3448550e4f69823f8"
+            }
+        ]
+    }
+}
