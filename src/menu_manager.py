@@ -102,63 +102,139 @@ class MenuManager:
     def create_scoreboard_menu(self):
         self.clear_window()
         frame = tk.Frame(self.root, bg='#2C3E50')
-        frame.pack(expand=True)
+        frame.pack(expand=True, fill='both')
         self.current_frame = frame
 
-        title = tk.Label(frame, text="High Scores",
-                         font=('Helvetica', 24, 'bold'),
-                         fg='#ECF0F1', bg='#2C3E50')
+        title = tk.Label(
+            frame,
+            text="High Scores",
+            font=('Helvetica', 24, 'bold'),
+            fg='#ECF0F1',
+            bg='#2C3E50'
+        )
         title.pack(pady=30)
 
-        # Create notebook for tabs
         notebook = ttk.Notebook(frame)
-        notebook.pack(pady=10, expand=True, fill='both')
+        notebook.pack(expand=True, fill='both', padx=20)
 
         # Tab for difficulty-based scores
         diff_frame = tk.Frame(notebook, bg='#2C3E50')
         notebook.add(diff_frame, text='By Difficulty')
 
+        # Create container for scrollable content
+        container = tk.Frame(diff_frame, bg='#2C3E50')
+        container.pack(expand=True, fill='both', padx=50)
+
+        canvas = tk.Canvas(container, bg='#2C3E50', highlightthickness=0)
+        scrollbar = ttk.Scrollbar(container, orient="vertical", command=canvas.yview)
+        scrollable_frame = tk.Frame(canvas, bg='#2C3E50')
+
+        scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+
+        canvas.create_window((0, 0), window=scrollable_frame, anchor="nw", width=500)
+        canvas.configure(yscrollcommand=scrollbar.set)
+
+        def _on_mousewheel(event):
+            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
+
+        # Add scores by difficulty
         difficulties = ["Easy", "Medium", "Hard"]
+        row = 0
 
         for difficulty in difficulties:
-            tk.Label(diff_frame, text=f"{difficulty} Scores:",
-                     fg='#ECF0F1', bg='#2C3E50',
-                     font=('Helvetica', 14, 'bold')).pack(pady=10)
+            tk.Label(
+                scrollable_frame,
+                text=f"{difficulty} Scores:",
+                fg='#ECF0F1',
+                bg='#2C3E50',
+                font=('Helvetica', 14, 'bold')
+            ).grid(row=row, column=0, pady=10, sticky='w')
+            row += 1
 
             scores = self.save_manager.get_scores(difficulty=difficulty)
             if not scores:
-                tk.Label(diff_frame, text="No scores yet",
-                         fg='#ECF0F1', bg='#2C3E50').pack()
+                tk.Label(
+                    scrollable_frame,
+                    text="No scores yet",
+                    fg='#ECF0F1',
+                    bg='#2C3E50'
+                ).grid(row=row, column=0, pady=5)
+                row += 1
             else:
-                for score in scores[:5]:  # Show top 5 scores
+                for score in scores[:5]:
                     score_text = f"{score['player']}: {score['score']:.1f}% ({score['time']:.1f}s)"
-                    btn = tk.Button(diff_frame, text=score_text,
-                                    command=lambda s=score: self.show_grid_details(s.get('grid_id')),
-                                    bg='#34495E', fg='#ECF0F1')
-                    btn.pack(pady=2)
+                    score_btn = tk.Button(
+                        scrollable_frame,
+                        text=score_text,
+                        command=lambda s=score: self.show_grid_details(s.get('grid_id')),
+                        bg='#34495E',
+                        fg='#ECF0F1',
+                        relief=tk.FLAT,
+                        width=40
+                    )
+                    score_btn.grid(row=row, column=0, pady=2, padx=10, sticky='ew')
+                    row += 1
 
         # Tab for grid-based scores
         grid_frame = tk.Frame(notebook, bg='#2C3E50')
         notebook.add(grid_frame, text='By Grid')
 
+        grid_container = tk.Frame(grid_frame, bg='#2C3E50')
+        grid_container.pack(expand=True, fill='both', padx=20)
+
+        grid_canvas = tk.Canvas(grid_container, bg='#2C3E50', highlightthickness=0)
+        grid_scrollbar = ttk.Scrollbar(grid_container, orient="vertical", command=grid_canvas.yview)
+        grid_scrollable = tk.Frame(grid_canvas, bg='#2C3E50')
+
+        grid_scrollable.bind(
+            "<Configure>",
+            lambda e: grid_canvas.configure(scrollregion=grid_canvas.bbox("all"))
+        )
+
+        grid_canvas.create_window((0, 0), window=grid_scrollable, anchor="nw", width=500)
+        grid_canvas.configure(yscrollcommand=grid_scrollbar.set)
+        grid_canvas.bind_all("<MouseWheel>", _on_mousewheel)
+
         grids = self.save_manager.get_all_grids()
         if not grids:
-            tk.Label(grid_frame, text="No grids available",
-                     fg='#ECF0F1', bg='#2C3E50').pack(pady=20)
+            tk.Label(
+                grid_scrollable,
+                text="No grids available",
+                fg='#ECF0F1',
+                bg='#2C3E50'
+            ).pack(pady=20)
         else:
             for grid_id, grid_info in grids.items():
                 grid_scores = self.save_manager.get_scores(grid_id=grid_id)
                 if grid_scores:
-                    frame = tk.Frame(grid_frame, bg='#2C3E50')
+                    frame = tk.Frame(grid_scrollable, bg='#2C3E50')
                     frame.pack(fill='x', pady=5)
 
                     header = f"Grid {grid_id[:8]} ({grid_info['difficulty']})"
-                    btn = tk.Button(frame, text=header,
-                                    command=lambda gid=grid_id: self.show_grid_details(gid),
-                                    bg='#34495E', fg='#ECF0F1')
+                    btn = tk.Button(
+                        frame,
+                        text=header,
+                        command=lambda gid=grid_id: self.show_grid_details(gid),
+                        bg='#34495E',
+                        fg='#ECF0F1'
+                    )
                     btn.pack(fill='x')
 
-        self.create_menu_button(frame, "Return", self.create_main_menu, '#E74C3C')
+        # Pack canvases and scrollbars
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+        grid_canvas.pack(side="left", fill="both", expand=True)
+        grid_scrollbar.pack(side="right", fill="y")
+
+        # Return button at the bottom
+        button_frame = tk.Frame(frame, bg='#2C3E50')
+        button_frame.pack(pady=20)
+        self.create_menu_button(self.current_frame, "Return", self.create_main_menu, '#E74C3C')
 
     def show_grid_details(self, grid_id):
         if not grid_id:
@@ -167,6 +243,58 @@ class MenuManager:
         grid_info = self.save_manager.get_grid_info(grid_id)
         if not grid_info:
             return
+
+        self.clear_window()
+        frame = tk.Frame(self.root, bg='#2C3E50')
+        frame.pack(expand=True, fill='both')
+        self.current_frame = frame
+
+        title = tk.Label(
+            frame,
+            text=f"Grid Details - {grid_id[:8]}",
+            font=('Helvetica', 20, 'bold'),
+            fg='#ECF0F1',
+            bg='#2C3E50'
+        )
+        title.pack(pady=20)
+
+        details_frame = tk.Frame(frame, bg='#2C3E50')
+        details_frame.pack(expand=True, fill='both', padx=20)
+
+        tk.Label(
+            details_frame,
+            text=f"Difficulty: {grid_info['difficulty']}",
+            fg='#ECF0F1',
+            bg='#2C3E50'
+        ).pack(pady=5)
+
+        scores = self.save_manager.get_scores(grid_id=grid_id)
+        if scores:
+            tk.Label(
+                details_frame,
+                text="Top Scores:",
+                font=('Helvetica', 14, 'bold'),
+                fg='#ECF0F1',
+                bg='#2C3E50'
+            ).pack(pady=10)
+
+            for score in scores[:5]:
+                score_text = f"{score['player']}: {score['score']:.1f}% ({score['time']:.1f}s)"
+                tk.Label(
+                    details_frame,
+                    text=score_text,
+                    fg='#ECF0F1',
+                    bg='#2C3E50'
+                ).pack(pady=2)
+
+        button_frame = tk.Frame(frame, bg='#2C3E50')
+        button_frame.pack(pady=20)
+        self.create_menu_button(
+            button_frame,
+            "Back to Scores",
+            self.create_scoreboard_menu,
+            '#E74C3C'
+        ).pack()
 
         self.clear_window()
         frame = tk.Frame(self.root, bg='#2C3E50')
@@ -197,7 +325,6 @@ class MenuManager:
                 tk.Label(frame, text=score_text,
                          fg='#ECF0F1', bg='#2C3E50').pack(pady=2)
 
-        # Create a game state object from grid info
         game_state = {
             "grid_id": grid_id,
             "difficulty": grid_info["difficulty"],
@@ -207,7 +334,7 @@ class MenuManager:
             "mine_positions": grid_info["mine_positions"],
             "first_cell": grid_info["first_cell"],
             "timestamp": grid_info["created_at"],
-            "time_elapsed": 0  # Start fresh
+            "time_elapsed": 0
         }
 
         self.create_menu_button(frame, "Play This Grid",
@@ -239,9 +366,9 @@ class MenuManager:
 
         self.create_menu_button(frame, "Return", self.create_play_menu, '#E74C3C')
 
-    # These methods will be bound by the main game class
     def start_game(self, difficulty):
         pass
 
     def load_game(self, game_data):
         pass
+
