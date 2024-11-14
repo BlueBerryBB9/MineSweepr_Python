@@ -294,7 +294,7 @@ class MenuManager:
             "Back to Scores",
             self.create_scoreboard_menu,
             '#E74C3C'
-        ).pack()
+        )
 
         self.clear_window()
         frame = tk.Frame(self.root, bg='#2C3E50')
