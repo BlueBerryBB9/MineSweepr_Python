@@ -152,6 +152,7 @@ class MenuManager:
                                     bg='#34495E', fg='#ECF0F1')
                     btn.pack(fill='x')
 
+        frame = self.current_frame
         self.create_menu_button(frame, "Return", self.create_main_menu, '#E74C3C')
 
     def show_grid_details(self, grid_id):
